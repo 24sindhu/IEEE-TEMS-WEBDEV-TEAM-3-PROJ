@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US PAGE</title>
+    <link rel="stylesheet" type="text/css" href="my part IEEE-TEMS proj.css">
+</head>
+<body>
+        <h1 class="h-primary center" style="margin-top: 30px;text-align: center;">
+            DESKTOP 2 ABOUT US
+            
+        </h1>
+    </br>
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+             <img src="chad-montano-MqT0asuoIcU-unsplash.jpg">
+             
+        </div>
+
+        <div class="slide fade">
+            <img src="anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg">
+       </div>
+
+       <div class="slide fade">
+        <img src="lily-banse--YHSwy6uqvk-unsplash.jpg">
+   </div>
+
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="prev" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+
+    </br>
+</br>
+  
+            <nav class="navbar background">
+                <div class="rightnav">
+                    <input type="text" name="search" id="search">
+                    <button class="btn btn-sm">Search</button>
+                </div>
+                <ul class="nav-list" style="margin-top: 20px;size: 70%;">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Food">Food</a></li>
+                    <li><a href="#AboutUs">AboutUs</a></li>
+                    <li><a href="#ContactUs">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="parent">
+                <div class="child"></div>
+<div class="container">
+    <div class="box1">
+    </div>
+    <div class="box2">
+        <h2 class="h-primary center" style="color: blueviolet;text-align: center;">
+            ABOUT US
+        </h2>
+				
+				<p class="text-small" style="margin-top:0%;text-align:center;color: brown;size: 60%;">
+					Welcome to Our Restaurant!
+
+We are proud to offer delicious food, excellent service, and a wonderful atmosphere. Our restaurant is a family-owned business that has been serving delicious meals for over 10 years. We take great pride in preparing meals made from fresh, local ingredients.
+
+Our menu features dishes that are both classic and innovative. Thank you for choosing our restaurant!
+				</p>
+    </div>
+    <div class="box3">
+        <section class="service">
+            <h1 class="h-primary center" style="margin-top:30px;text-align:center; color: blueviolet;">
+                Our Team
+            </h1>
+            <h2 class="h-primary center" style="margin-top: 10px;text-align: center;">
+              1.Varasree <br/> 2.Sachitha </br> 3.Sai Sindhu
+            </h2>
+                </div>       
+        </section>
+    <div class="box4"></div>
+</div>
+</div>
+
+  <div class="box">
+    <p style="font-family: sans-serif ">
+        <h2
+        class="h-primary center" style="margin-top:10px;text-align: left;color: blue;">
+        ____fc.vit@gmail.com___
+        <br/>
+        ____Timings :- 8:00am to 10:00pm____
+        </h2>
+    </p>
+    <br/>
+    <p style="font-family: sans-serif ">
+        <h2
+class="h-primary center" style="margin-top:10px;text-align: left;color: blue;">
+____Food Manager of the company___
+        </h2>
+     </p>
+    
+
+
+  <footer class="background">
+    <p class="text-footer">
+        <h2
+        class="h-primary center" style="margin-top:10px;text-align: left; color: blue;">
+               ____Copyright ©-All rights are reserved___ 
+        </h2>
+    </p>
+
+</footer>
+</div>
+</body>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+
+</script>
+</body>
+</html>
